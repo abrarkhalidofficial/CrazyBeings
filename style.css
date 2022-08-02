@@ -87,6 +87,7 @@ padding-left: 4em;
     align-items: center;
     justify-content: space-between;
   }
+ 
   .navbar__main ul {
     display: flex;
   }
@@ -322,19 +323,24 @@ justify-content: center;
 }
 .sevices{
 
-  width: 100%;
-  margin: 0 auto;
   
+  /* margin: 0 auto; */
+ 
   background-color: black;
+ 
+
 }
 
 
 .title_h2{
 color: white;
+
   font-size: 75px;
-  width: 1330px;
-  margin: 30px auto;
+  max-width: 1140px;
+  margin: 0 auto;
+  /* margin: 30px auto; */
   text-align: center;
+  
 }
 .span_ser{
   color: #C44AAB;
@@ -345,16 +351,30 @@ color: white;
   text-align: end;
  margin: 10px;
  height: 200px;
- width: 230px;
+ width: 23px;
  border: 3px white solid;
   border-radius: 5px;
   cursor: pointer;
+
 }
 .services_cards{
   padding-top:8em;
   text-align: center;
-  width: 100%;
+  width: 18%;
+  
 }
 .serviessss__Card{
   display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  
+}
+.services_cards:hover{
+  background-color: #27c0ff;
+}
+.full{
+  background-color: #2A0233;
 }
