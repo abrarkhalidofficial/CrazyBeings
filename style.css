@@ -321,11 +321,14 @@ justify-content: center;
     color: white;
     border: 3px solid white;
 }
+.about_us_two_img{
+  padding-bottom: 3em;
+}
 .sevices{
 
   
   /* margin: 0 auto; */
- 
+padding-bottom: 80px;
   background-color: black;
  
 
@@ -374,10 +377,38 @@ color: white;
 }
 .services_cards:hover{
   background-color: #27c0ff;
+  border: 2px solid  ;
+  transition: 1s;
 }
 .full{
   background-color: #2A0233;
 }
-.work_img{
-width: ;
+.button:hover{
+  top: 0;
+  left: 0;
+  background:transparent;
+  color: rgb(209, 12, 193);
+  border: 2px solid  ;
+ 
+  transition: 0.8s;
+}
+
+.work__con{
+display: flex;
+height: 500px;
+padding-top: 2em;
+justify-content: center;
+width: 100%;
+background-color: black;
+margin: 0 auto;
+padding-bottom: 35px;
+}
+.work__pics{
+display: flex;
+cursor: pointer;
+
+}
+.our__work{
+padding-top: 50px;
+  background-color: black;
 }
